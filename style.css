@@ -45,8 +45,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:#494548;
-    color: #ffbd59;
+    background-color:#ffbd59;
     width: 100vw;
     height: 5vh;
 }

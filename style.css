@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Rubik:wght@300&display=swap');
+
+html {
+    background-color: #637789;
+    margin: none;
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filler {
+    width: 0.5vw;
+}
+
+img {
+    width: 100vw;
+    height: auto;
+    display: inline;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 5vh
+}
+
+h4 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 3vh;
+}
+
+.welcome {
+    color: #ffbd59;
+    display: flex;
+    width: 100vw;
+    height: 25vh;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.alignment-item-top {
+    align-self: flex-start;
+    height: 40vh;
+}
+
+.alignment-item-bottom {
+    align-self: flex-end;
+    height: 33%;
+}
+
+.welcome-text {
+    align-self: center;
+    max-width: 50%;
+}

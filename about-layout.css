@@ -1,0 +1,36 @@
+.content {
+    background-color: chocolate;
+    width: 100vw;
+    height: 95vh;
+    bottom: 5vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {   
+    width: calc(100vw *0.75);
+    border: 1px solid black;
+    box-shadow: 0 2vw 2vh 0 rgba(0,0,0,0.5);
+}
+
+.text {
+    height: 50vh;
+    margin: 3vh;
+    background-color: green; 
+}
+
+.link {
+    height: 25vh;
+    background-color: beige;
+    margin: 3vh;
+}
+
+.alignment {
+    height: 1vh;
+    width: 100vw;
+    margin: 9vh;
+    display: block;
+}

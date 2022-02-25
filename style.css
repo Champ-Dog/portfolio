@@ -42,7 +42,7 @@ body {
     font-size: 3vh;
 }
 
-.navbar {
+footer {
     position: fixed;
     height: 5vh;
     top: 95vh;

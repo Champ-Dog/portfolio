@@ -1,21 +1,18 @@
 
-body {
-    
-}
-
 .card {
     position: fixed;
     background-color: #ffbd59;   
     width: 85vw;
     height: 25vh;
-    margin: 3vh calc(15vw /2);
+    margin: 1vh calc(15vw /2);
     
 }
 
 .alignment {
     position: fixed;
+    top: 0;
     width: 100vw;
-    height: 25vh;
+    height: 30vh;
     margin: none;
 }
 

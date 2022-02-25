@@ -1,0 +1,13 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 5vw;
+}
+
+.closing-image {
+    width: 25vw;
+}

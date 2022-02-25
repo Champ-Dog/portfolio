@@ -1,5 +1,5 @@
 .content {
-    width: 100vw;
+   /* width: 100vw; */
     height: 95vh;
     bottom: 5vh;
 
@@ -10,7 +10,7 @@
 }
 
 .card {   
-    width: calc(100vw *0.75);
+    width: 75vw;
 }
 
 .text {
@@ -23,6 +23,18 @@
     height: 25vh;
     background-color: beige;
     margin: 3vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 20vh;
+    width: 30vw;
+    margin: 2.5vh 2.5vw;
+}
+
+a {
+    background-color: beige;
 }
 
 .alignment {

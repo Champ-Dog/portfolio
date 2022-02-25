@@ -4,6 +4,7 @@
     background-color: #637789;
     width: vw;
     height: vh;
+    font-family: Rubik, sans-serif;
 }
 
 body {
@@ -44,17 +45,22 @@ nav {
     height: 5vh;
 }
 
+a {
+    color: #494548;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #494548;
+    text-decoration: none;
+}
+
 nav a {
     margin: 1vh;
     border: 1vh;
     border-radius: 1vh;
     padding: 1vh;
     background-color: #ffbd59;
-    color: #494548;
-    text-decoration: none;
+
 }
 
-nav a:visited {
-    color: #494548;
-    text-decoration: none;
-}

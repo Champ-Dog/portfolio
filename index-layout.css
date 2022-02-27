@@ -13,3 +13,40 @@
 .heading, .sub-heading {
     text-align: center;
 }
+
+@media only screen and (min-width: 451px) {
+    body {
+        height: 95vh;       
+        display: flex;   
+        justify-content: center;
+        align-items: space-around;
+    }
+   
+    .main-image {  
+        width: 95vw;
+        margin: auto;
+        display: block;
+    }
+  
+    .welcome {
+        position: fixed;
+        top: 45%;
+        bottom: 50%;
+        margin: 1px;
+        left: 0;
+        right: 0;
+        background: none;
+    }
+
+    .heading {
+        background: none;
+        color: #cbd1d6
+    }
+
+    .sub-heading {
+        background: none;
+        color: #cbd1d6;
+        font-weight: 900;
+        font-size: 4vh;
+    }
+}

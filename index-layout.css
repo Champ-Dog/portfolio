@@ -1,5 +1,5 @@
 body {
-  background-image: url(./me-mobile.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./me-mobile.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,6 +32,11 @@ body {
 .heading, .sub-heading {
     text-align: center;
 }
+
+ .sub-heading {
+    background: none;
+    font-weight: 900;
+} 
 
 /*
 @media only screen and (min-width: 451px) {

@@ -1,4 +1,14 @@
-.main-image {
+body {
+  background-image: url(./me-mobile.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 95vh;
+  margin: 0px
+}
+
+/* .main-image {
     width: 100vw;
     margin: 0px;
 }
@@ -8,12 +18,22 @@
     flex-direction: column;
     align-items: center;
     margin: 5vh;
+} */
+
+.welcome {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: none;
 }
 
 .heading, .sub-heading {
     text-align: center;
 }
 
+/*
 @media only screen and (min-width: 451px) {
     body {
           
@@ -31,7 +51,7 @@
     .main-image {  
        /* width: 95vw;
         margin: auto;
-        display: block; */
+        display: block; 
         display: hidden;
     }
   
@@ -56,4 +76,4 @@
         font-weight: 900;
         font-size: 4vh;
     }
-}
+} */

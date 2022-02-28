@@ -45,7 +45,7 @@ a {
     display: block;
 }
 
-@media only screen and (min-width: 515px) {
+@media only screen and (min-width: 426px) {
     .content {
         flex-direction: row;
     }
@@ -88,5 +88,15 @@ a {
     #sixth {
         order: 6;
     }
-
 }
+
+@media only screen and (min-width: 651px) {
+    .content {
+        justify-content: space-around;
+    }
+    
+    .card {
+        flex: 25%;
+        height: 40vh;
+        max-width: 30vw;
+    }

@@ -4,8 +4,7 @@
     background-color: #ffbd59;   
     width: 85vw;
     height: 25vh;
-    margin: 1vh calc(15vw /2);
-    
+    margin: 1vh calc(15vw /2);   
 }
 
 .alignment {
@@ -33,3 +32,70 @@ article {
     border-radius: 1vh;
     padding: 1vh;
 }
+
+@media only screen and (min-width: 770px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    } 
+  
+    .alignment {
+        display: none;
+    }
+
+    .card-box {
+        width: 30vw;
+        flex: 40%;
+    }
+
+    .card {
+        width: 30vw;
+    }
+
+    .container {
+        position: initial;
+        bottom: initial;
+        top: initial;
+        margin: initial;
+        width: 30vw;
+        flex: 40%;
+    }
+
+    article {
+    width: initial;
+    background-color: rgba(245,245,220, 0.5);
+    margin:3vh calc(15vw /2);
+    border-radius: 1vh;
+    padding: 1vh;
+   
+    /*.card {
+        position: fixed;
+        display: block;
+        width: 45vw;
+        height: 87vh;
+        margin: none;
+        top: 3vh;
+        left: -3vw; 
+    }
+
+    .container {
+        position: absolute;
+        display: block;
+        right: 3vw;
+        width: 45vw;
+        height: auto;
+        top: 3vh;
+        bottom: 15vh; */
+  /*      overflow:
+        
+        margin: auto;
+    }
+
+    article {
+        width: 40vw;
+        margin: none;
+        padding: none;
+        justify-self: flex-end;
+    }
+} */

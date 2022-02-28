@@ -1,4 +1,14 @@
 body {
+    
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./me-mobile.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 95vh;
+  margin: 0px
+
+
     height: 95vh;
     display: flex;
     flex-direction: column;
@@ -48,6 +58,7 @@ div > a {
 }
 
 #closing-image {
+    display: none;
     width: 75vw;
     justify-self: flex-end;
     align-self: center;
@@ -57,3 +68,4 @@ div > a {
     height: 5vh;
     width: 100vw;
 }
+

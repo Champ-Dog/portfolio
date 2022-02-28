@@ -1,7 +1,8 @@
-.content {
-   /* width: 100vw; */
-    height: 95vh;
-    bottom: 5vh;
+
+ .content {
+   /* width: 100vw; 
+    height: 75vh;
+    bottom: 5vh; */
 
     display: flex;
     flex-wrap: wrap;
@@ -43,14 +44,49 @@ a {
     margin: 9vh;
     display: block;
 }
-@media only screen and (min-width: 426px) {
+
+@media only screen and (min-width: 515px) {
     .content {
         flex-direction: row;
     }
     
     .card {
-        flex: 40%
-        height: auto;
-        margin: auto;
+        flex: 40%;
+       /* height: auto;
+        margin: auto; */
     }
+
+    .link {
+        flex-direction: column;
+        height: 50vh;
+    }
+
+    .alignment {
+        display: none;
+    }
+
+    #first {
+        order:1
+    }
+
+    #second {
+        order: 2;
+    }
+
+    #third {
+        order: 4
+    }
+
+    #fourth {
+        order:3;
+    }
+
+    #fifth {
+        order: 5;
+    }
+
+    #sixth {
+        order: 6;
+    }
+
 }

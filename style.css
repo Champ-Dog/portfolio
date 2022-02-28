@@ -28,6 +28,8 @@ body {
     font-size: 4vh;
 }
 
+/* Layout for Footer - this should be universal across all pages */
+
 footer {
     position: fixed;
     height: 5vh;
@@ -59,6 +61,5 @@ nav a {
     border-radius: 1vh;
     padding: 1vh;
     background-color: #ffbd59;
-
 }
 

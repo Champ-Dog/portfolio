@@ -69,3 +69,8 @@ div > a {
     width: 100vw;
 }
 
+a {
+    background: none;
+    font-weight: 900;
+    color: #ffbd59;
+} 

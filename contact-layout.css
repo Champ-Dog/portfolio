@@ -39,7 +39,7 @@ body {
     display: flex;
     width: 75vw;
     justify-content: space-between;
-    margin: 1px;
+    /* margin: 1px; */
 }
 
 .logo {
@@ -79,3 +79,37 @@ a {
     color: #ffbd59;
 } 
 
+@media only screen and (min-width: 715px) {
+     body {
+        background-image: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-around;        
+    }
+
+    .main-image {
+        display: block;
+        max-height: 80vh;
+        box-shadow: 0 2vw 2vh 0 rgba(0,0,0,0.5);    
+    }
+
+    .contacts {
+        position: static;
+        top: auto;
+        left: auto;
+        transform: none;
+        align-self: center;
+        max-width: 30%;
+        order: 1
+        height: 50vh;
+    }
+
+    #linkedin, #github, #email {
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    
+    }
+}

@@ -104,9 +104,11 @@ body {
         left: auto;
         transform: none;
         align-self: center;
-        max-width: 60%;
+        max-width: 30%;
+    
        /* background-color: rgba(203, 209, 214, 0.5);
         box-shadow: 0 2vw 2vh 0 rgba(0,0,0,0.5);  
-        padding: 1vw; */
+        padding: 1vw;
+        */
     }
 }

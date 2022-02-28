@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: space-around;
-    position: sticky;
+    position: fixed;
     top: 0;
     justify-self: flex-start;
     background-color: #637789;
@@ -21,7 +21,7 @@ body {
     background-color: #ffbd59;   
     width: 85vw;
     height: 25vh;
-    margin: calc(15vw /2);
+    margin: calc(15vw /2) calc(15vw /2)  calc(15vw /4) calc(15vw /2);
     overflow: hidden;
 }
 
@@ -88,40 +88,47 @@ article {
 
 @media only screen and (min-width: 770px) {
     body {
-        display: flex;
-        flex-wrap: wrap;
+       /* display: flex; */
+        flex-wrap: wrap; 
+        align-items: space-around;
         justify-content: space-around;
     } 
   
-    .alignment {
+   /* .alignment {
         display: none;
-    }
+    } */
 
     .card-box {
-        width: 30vw;
-        flex: 40%;
+        justify-self: space-around;
+        align-self: space-around;
+        top: 2vh;
+        
     }
 
     .card {
-        width: 30vw;
+        width: 40vw;
+        height: 85vh;
+        padding: 1vh 3vw;
+        margin: 2vh 2vw;
     }
 
     .container {
-        position: initial;
-        bottom: initial;
-        top: initial;
-        margin: initial;
-        width: 30vw;
-        flex: 40%;
+        width: 50vw;
+        /* flex: 50%; */
+        justify-self: center;
+        align-self: flex-end;
+        
+
     }
 
     article {
-    width: initial;
-    background-color: rgba(245,245,220, 0.5);
-    margin:3vh calc(15vw /2);
-    border-radius: 1vh;
-    padding: 1vh;
-   
+        width: 40vw;
+        border-radius: 1vh;
+        padding: 1vh 3vw;
+        margin: 2vh 2vw;
+    }
+}
+
     /*.card {
         position: fixed;
         display: block;
@@ -151,4 +158,3 @@ article {
         padding: none;
         justify-self: flex-end;
     } */
-} 

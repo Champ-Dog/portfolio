@@ -85,31 +85,40 @@ a {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        align-content: space-around;
+        align-content: center;
         justify-content: space-around;        
     }
 
     .main-image {
         display: block;
         max-height: 80vh;
-        box-shadow: 0 2vw 2vh 0 rgba(0,0,0,0.5);    
+        max-width: 45vw;
+        box-shadow: 0 2vw 2vh 0 rgba(0,0,0,0.5);   
+        flex: 50%; 
     }
 
     .contacts {
-        position: static;
-        top: auto;
-        left: auto;
-        transform: none;
+        position: initial;
         align-self: center;
-        max-width: 30%;
-        order: 1
-        height: 50vh;
+        max-width: 45vw;
+        justify-content: space-around;
+        height: 40vh;
+        flex: 50%
     }
 
     #linkedin, #github, #email {
     display: flex;
-    width: 30vw;
+    width: 45vw;
     justify-content: space-between;
-    
     }
+    
+    div > a {
+    align-self: center;
+    font-size: 7vh;
+    }
+
+    .logo {
+    width: 5vw;
+    height: 5vw;
+}
 }

@@ -10,11 +10,10 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: space-around;
-    position: fixed;
+    position: sticky;
     top: 0;
     justify-self: flex-start;
-    background-color: #637789;
-    
+    background-color: #637789; 
 }
 
 .card {
@@ -23,6 +22,7 @@ body {
     height: 25vh;
     margin: calc(15vw /2) calc(15vw /2)  calc(15vw /4) calc(15vw /2);
     overflow: hidden;
+    
 }
 
 .container {
@@ -40,6 +40,11 @@ article {
     border-radius: 1vh;
     padding: 1vh 3vw;
     margin: 2vh 2vw;
+    bottom: 6vh;
+}
+
+.alignment {
+    height: 6vh;
 }
 
 /* Using alignment container to blank out text scrolling under the blog card - unsuccessful
@@ -86,7 +91,7 @@ article {
 }
 */
 
-@media only screen and (min-width: 900px) {
+@media only screen and /* (min-width: 900px)*/ (orientation: landscape) {
     body {
        /* display: flex; */
         flex-wrap: wrap; 
@@ -99,6 +104,7 @@ article {
     } */
 
     .card-box {
+        position: fixed;
         justify-self: center;
         align-self: space-around;
         top: 2vh;

@@ -91,7 +91,7 @@ a {
     }
 }
 
-@media only screen and (min-width: 651px) {
+ @media only screen and /* (min-width: 651px) */ (orientation: landscape) {
     .content {
         justify-content: space-around;
     }
@@ -101,3 +101,4 @@ a {
         height: 40vh;
         max-width: 45vw;
     }
+} 

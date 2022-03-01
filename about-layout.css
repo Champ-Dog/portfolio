@@ -21,12 +21,11 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /*background-color: rgba(255, 189, 89, 0.7); */
     color: #ffbd59;
-    box-shadow: none;
     font-size: 1em;
-    /* IN FINAL CODE THE CARD CLASS SHOULD BE REMOVED RATHER THAN INCLUDE ABOVE LINE */
-
-
+    box-shadow: none; 
+        /* IN FINAL CODE THE CARD CLASS SHOULD BE REMOVED RATHER THAN INCLUDE ABOVE LINE */
 }
 
 .link {

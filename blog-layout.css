@@ -86,7 +86,7 @@ article {
 }
 */
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 900px) {
     body {
        /* display: flex; */
         flex-wrap: wrap; 
@@ -99,14 +99,15 @@ article {
     } */
 
     .card-box {
-        justify-self: space-around;
+        justify-self: center;
         align-self: space-around;
         top: 2vh;
+        width: 50vw;
         
     }
 
     .card {
-        width: 40vw;
+        max-width: 30vw;
         height: 85vh;
         padding: 1vh 3vw;
         margin: 2vh 2vw;

@@ -83,7 +83,7 @@ a {
      body {
         background-image: none;
         display: flex;
-        flex-direction: row;
+        flex-flow: row;
         flex-wrap: wrap;
         align-content: center;
         justify-content: space-around;        
@@ -100,7 +100,7 @@ a {
     .contacts {
         position: initial;
         align-self: center;
-        max-width: 45vw;
+        max-width: 40vw;
         justify-content: space-around;
         height: 40vh;
         flex: 50%
@@ -108,7 +108,8 @@ a {
 
     #linkedin, #github, #email {
     display: flex;
-    width: 45vw;
+    max-width: 40vw;
+
     justify-content: space-between;
     }
     

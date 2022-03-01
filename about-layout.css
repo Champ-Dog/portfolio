@@ -17,7 +17,16 @@
 .text {
     height: 50vh;
     margin: 3vh;
-    background-color: green; 
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffbd59;
+    box-shadow: none;
+    font-size: 1em;
+    /* IN FINAL CODE THE CARD CLASS SHOULD BE REMOVED RATHER THAN INCLUDE ABOVE LINE */
+
+
 }
 
 .link {
@@ -26,6 +35,10 @@
     margin: 3vh;
     display: flex;
     justify-content: space-between;
+}
+
+img {
+    width: 30vw;
 }
 
 /*.logo {

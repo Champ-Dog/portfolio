@@ -3,41 +3,85 @@
    /* width: 100vw; 
     height: 75vh;
     bottom: 5vh; */
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 
-.card {   
-    width: 75vw;
+.sub-heading {
+    text-align: left;
 }
 
 .text {
-    height: 50vh;
+   /* height: 50vh; */
     margin: 3vh;
     background-color: none;
     display: flex;
+    flex-direction: row;
+      
     align-items: center;
-    justify-content: space-around;
-    /*background-color: rgba(255, 189, 89, 0.7); */
+    justify-content: space-between;
+
     color: #ffbd59;
     font-size: 1em;
     box-shadow: none; 
-        /* IN FINAL CODE THE CARD CLASS SHOULD BE REMOVED RATHER THAN INCLUDE ABOVE LINE */
+
+    border: 1px solid black;
+
+}
+
+.blurb {
+    /* text-align: center; */
+    padding: 3vw;
 }
 
 .link {
     height: 25vh;
-    background-color: beige;
-    margin: 3vh;
+    width: 90vw;
+    /* background-color: #494548; */
+     margin: 3vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+
+}
+
+.logo {
+    position: relative;
+    animation-name: slide;
+    animation-duration: 3s;
 }
 
 img {
-    width: 30vw;
+    width: 40vw;
+    display: inline-block;
+}
+
+.caption {
+    font-size: 4vh;
+    width: 40vw;
+    height: 40vw;
+    text-align: center;
+    color: #ffbd59;
+    background-color: #637789;
+    display: inline-block; 
+    position: initial;
+    z-index: 1;
+    border: 1px solid red;
+    
+    /* transform: translate(-30vw); */
+
+}
+
+@keyframes slide {
+    from {
+        transform: translate(36vw)
+    } 
+    to {
+        transform: translate(0)
+    }
 }
 
 /*.logo {
@@ -57,7 +101,7 @@ a {
     margin: 9vh;
     display: block;
 }
-
+/* Commenting out as not proceeding with this design
 @media only screen and (min-width: 426px) {
     .content {
         flex-direction: row;
@@ -65,8 +109,8 @@ a {
     
     .card {
         flex: 40%;
-       /* height: auto;
-        margin: auto; */
+        height: auto;
+        margin: auto; 
     }
 
     .link {
@@ -102,6 +146,7 @@ a {
         order: 6;
     }
 }
+ */
 
  @media only screen and /* (min-width: 651px) */ (orientation: landscape) {
     .content {
@@ -112,5 +157,16 @@ a {
         flex: 25%;
         height: 40vh;
         max-width: 45vw;
+    }
+
+    img {
+        width: 15vw;
+    }
+
+    .caption {
+        width: 15vw;
+        height: 15vw;
+       /* display: flex;
+        align-items: space-around; - FLEXBOX won't work as inside div is just text, not elements. Would need to create further container */
     }
 } 

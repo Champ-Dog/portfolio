@@ -40,9 +40,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    overflow-y: scroll;
-    
-    
+    overflow-y: scroll;    
+}
+
+.blog-nav {
+    text-align: center;
 }
 
 .container {
@@ -144,7 +146,13 @@ article {
         flex-direction: column;
     }
 
-    .card-right {
+    #blog-img {
+        max-height: 25vh;
+    }
+
+    .blog-nav {
+        display: flex;
+        justify-content: center;
         align-items: center;
     }
 

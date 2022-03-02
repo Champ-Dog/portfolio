@@ -22,6 +22,26 @@ body {
     height: 25vh;
     margin: calc(15vw /2) calc(15vw /2)  calc(15vw /4) calc(15vw /2);
     overflow: hidden;
+    display: flex;
+    justify-content: space-around;   
+}
+
+.card-left {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;   
+}
+
+.card-right {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow-y: scroll;
+    
     
 }
 
@@ -41,6 +61,10 @@ article {
     padding: 1vh 3vw;
     margin: 2vh 2vw;
     bottom: 6vh;
+}
+
+img {
+    max-width: 20vw;
 }
 
 .alignment {
@@ -117,6 +141,11 @@ article {
         height: 85vh;
         padding: 1vh 3vw;
         margin: 2vh 2vw;
+        flex-direction: column;
+    }
+
+    .card-right {
+        align-items: center;
     }
 
     .container {

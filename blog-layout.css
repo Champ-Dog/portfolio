@@ -35,6 +35,10 @@ body {
     text-align: center;   
 }
 
+#blog-img {
+        width: 20vw;
+}
+
 .card-right {
     flex: 50%;
     display: flex;
@@ -65,9 +69,6 @@ article {
     bottom: 6vh;
 }
 
-img {
-    max-width: 20vw;
-}
 
 .alignment {
     height: 6vh;
@@ -144,10 +145,6 @@ article {
         padding: 1vh 3vw;
         margin: 2vh 2vw;
         flex-direction: column;
-    }
-
-    #blog-img {
-        max-height: 25vh;
     }
 
     .blog-nav {

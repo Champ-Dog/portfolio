@@ -69,7 +69,7 @@ img {
     background-color: #ffbd59;
     border-radius: 1em;
     color: #637789;
-
+    padding: 2vh;
     font-weight: 1000;
     display: flex;
     justify-content: space-around;
@@ -163,7 +163,7 @@ a {
     }
     
     .link {
-        max-width: 20vw;
+        max-width: 30vw;
     }
 
    .logo {
@@ -177,7 +177,7 @@ a {
         background-color: #ffbd59;
         border-radius: 1em;
         color: #637789;
-        padding: 0.7em;
+        
         /* font-size: 4vh; */
         font-weight: 1000;
         display: flex;

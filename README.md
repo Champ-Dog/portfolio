@@ -61,7 +61,8 @@ Included in the repo for this project should be:
 The website contains four pages:
 - A landing page to greet the user, invite them to explore the site, and provide navigation.
 
-SCREENSHOT
+![Screenshot showing mobile layout of landing page](./docs/landing-mobile.jpg)
+
 
 - An 'About Me' page, containing a brief introduction to me, my interests, and professional history. This page will also provde links to my resume, blog, and YouTube channel/s.
 
@@ -76,7 +77,7 @@ SCREENSHOT
 Each page also contains a navbar, allowing the user to access the other pages.
 
 ## Sitemap
-![Image showing layout of website](./sitemap.svg)
+![Image showing layout of website](./docs/sitemap.svg)
 
 This is a fairly small webpage, and the layout is straightforward. There is a landing page `index.html` that links directly to each other page. Each page contains a navbar allowing access to each other page.
 

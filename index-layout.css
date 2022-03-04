@@ -8,6 +8,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
+    /*Alignment of items on the page*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,61 +28,10 @@ Display of image element needs to be hidden for portrait mode*/
   text-align: center;
 }
 
-.heading, .sub-heading {
-    text-align: center;
-}
-
- .sub-heading {
-    background: none;
-    font-weight: 900;
-} 
-
-/*
-@media only screen and (min-width: 451px) {
-    body {
-          
-        background-image: url(./me-mobile.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        overflow: hidden;
-     
-        display: flex;   
-        justify-content: center;
-        align-items: space-around;
-    }
-   
-    .main-image {  
-       /* width: 95vw;
-        margin: auto;
-        display: block; 
-        display: hidden;
-    }
-  
-    .welcome {
-        position: fixed;
-        top: 45%;
-        bottom: 50%;
-        margin: 1px;
-        left: 0;
-        right: 0;
-        background: none;
-    }
-
-    .heading {
-        background: none;
-        color: #cbd1d6;
-    }
-
-    .sub-heading {
-        background: none;
-        color: #cbd1d6;
-        font-weight: 900;
-        font-size: 4vh;
-    }
-} */
-
-@media only screen and /*(min-width: 500px)*/ (orientation: landscape) {
+@media only screen and (orientation: landscape) {    
+    
+    /*Alignment of items on the page needs to be changed from vertial to horizontal.
+    FlexBox settings need to be changed to allow for correct spacing and the introduction of the main-image element*/
     body {
         background-image: none;
         display: flex;
@@ -91,6 +41,7 @@ Display of image element needs to be hidden for portrait mode*/
         justify-content: space-around;        
     }
 
+    /*The image needs to have display properties set as the background image is no longer present*/
     .main-image {
         display: block;
         max-height: 80vh;

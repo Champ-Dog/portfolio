@@ -27,9 +27,11 @@ Check this [guide to writing README documents](https://www.freecodecamp.org/news
 This repo contains the code and other assets used to build my portfolio site.
 
 The repository for this project can be found here:
+https://github.com/Champ-Dog/portfolio
 
 
-The website itself can be found here:
+The website itself can be found here:   
+https://champ-dog.github.io/portfolio
 
 ## General Description + Purpose
 This website will function as a digital business card, resume, and first point of contact. The expected audience includes professional contacts, potential employers, and clients.
@@ -49,30 +51,45 @@ This project was built with these technologies:
 - GitHub Pages
 
 Included in the repo for this project should be:
+### src directory
 - 4 `.html` files, one for each of the four pages of the website
 - 5 `.css` files, containing layout and style instructions for the pages.
-- A directory containing the images for the website.
+- An images directory, containing the images used in the website
+- A `.pdf` file containing a mock-up resume (to be updated)
 - 1 `README.md` file (you found it!) describing the project
-- -
-- -
-- -
+- Sitemap files
+
+- A docs directory, containing the content linked to by this document
+- 
 
 ## Features
 The website contains four pages:
-- A landing page to greet the user, invite them to explore the site, and provide navigation.
+
+### Landing Page
+A landing page to greet the user, invite them to explore the site, and provide navigation. This page focuses on an image of myself, to create a personal and inviting feeling.
 
 ![Screenshot showing mobile layout of landing page](./docs/landing-mobile.jpg)
+![Screenshot showing desktop layout of landing page](./docs/landing-desktop.jpg)
 
 
-- An 'About Me' page, containing a brief introduction to me, my interests, and professional history. This page will also provde links to my resume, blog, and YouTube channel/s.
+### About Me
+This page contains a brief introduction to me, my interests, and professional history. This page will provde links to my resume, blog, and YouTube channel/s. The links are in the form of visual icons, which are animated to attract attention and engage the user.
 
-SCREENSHOT
+![Screenshot showing mobile layout of About Me page](./docs/about-mobile.jpg)
+![Screenshot showing desktop layout of About Me page](./docs/about-desktop.jpg)
 
-- A blog page, initially containing filler text. Going forward my plan is to fill this with existing and future writing. Currently content is included in the `.html` document for this page; I plan to restructure this page to allow linking to external or included files. This should minimise the need to edit the base code for the page when new content is added.  
+### Blog
+This is a blog page, initially containing filler text. Going forward my plan is to fill this with existing and future writing. Currently content is included in the `.html` document for this page; I plan to restructure this page to allow linking to external or included files. This should minimise the need to edit the base code for the page when new content is added.  
+As well as the actual content of the blog posts, this page also includes a navbar, allowing the user to navigate directly to a specific post.
 
-SCREENSHOT
+![Screenshot showing mobile layout of blog page](./docs/blog-mobile.jpg)
+![Screenshot showing desktop layout of blog page](./docs/blog-desktop.jpg)
 
-- A contact page, which will invite the user to follow my professional accounts and other projects, and contact me directly.
+### Contact
+A contact page, which will invite the user to follow my professional accounts and other projects, and contact me directly. This page includes the same image as the landing page, adding a personal touch to the invitation to connect. This page mirrors the layout of the landing page, to give a sense of framing the site.
+
+![Screenshot showing mobile layout of contact page](./docs/contact-mobile.jpg)
+![Screenshot showing desktop layout of contact page](./docs/contact-desktop.jpg)
 
 Each page also contains a navbar, allowing the user to access the other pages.
 
@@ -84,7 +101,7 @@ This is a fairly small webpage, and the layout is straightforward. There is a la
 ## Notes
 The current visual layout differs notably from the initial wireframe of the site. Initial design contained unnecessary complexity, and layouts that were not functional with the final content of the site.
 
-In created initial designs and wireframes, I overestimated the amount of visual 'real estate' I would have on various devices (notably tablets). I also overvalued interesting or novel displays without sufficient knowledge or consideration of the end-user experience.
+In creating initial designs and wireframes, I overestimated the amount of visual 'real estate' I would have on various devices (notably tablets). I also overvalued interesting or novel displays without sufficient knowledge or consideration of the end-user experience.
 
 This resulted in significant extra work both in coding, and then needing to overhaul designs and code partway through the project. Initial designs introduced complexity and visual "busy-ness" without a commensurate increase in value, meaning, or accessibility for the end-user.
 

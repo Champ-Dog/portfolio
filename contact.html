@@ -9,25 +9,37 @@
     <title>Let's Talk!</title>
 </head>
 <body>
+
+    <!--Container for main image, to allow for easier alignment with FlexBox-->
     <div class="image-box">
         <img class="main-image" src="./images/me1440.jpg" alt="A photo of yours truly, taken by my wife while waiting for brunch">
     </div>
-    <div class="alignment-top"></div><!--Empty container for alignment-->
-    <div class="contacts">
+
+    <!--This element contains the links, text and logos making up my contact information, and allows for their alignment.
+        Each logo/text pair is in it's own container, to allow for internal alignment with FlexBox.
+        Any further contact/follow information should be seperated into it's own container and inserted here-->
+    <article class="contacts">
+
+        <!--LinkedIn information goes here-->
         <div id="linkedin">
             <img class="logo" src="./images/linkin-icon.png" alt="">
             <a href="www.linkedin.com/in/camerontape">LinkedIn</a> 
         </div>
+        
+        <!--GitHub information goes here-->
         <div id="github">
             <img class="logo" src="./images/github-icon.png" alt="">
             <a href="https://github.com/Champ-Dog">GitHub</a>
         </div>
+
+        <!--Email goes here-->
         <div id="email">
             <img class="logo" src="./images/email-icon.png" alt="">
             <a href="mailto: ceedev@duck.com">Email</a>
         </div>
-    </div>
-    <div class="alignment-bottom"></div><!--Empty container for alignment-->
+    </article>
+    
+    <!--Navbar. This will be copied to all pages-->
     <footer>
         <nav>
             <a href="./index.html">HOME</a>

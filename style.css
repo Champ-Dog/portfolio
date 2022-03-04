@@ -16,17 +16,21 @@ body {
         box-shadow: 0 2vw 2vh 0 rgba(0,0,0,0.5);
 }
 
-.heading, .sub-heading {
+/*.heading, .sub-heading {
+    color: #ffbd59;
+} */
+
+h1, h2 {
     color: #ffbd59;
 }
 
-.heading  {
+/*.heading*/h1  {
     font-family: 'Raleway', sans-serif;
-    font-weight: bolder;
+    /* font-weight: bolder; */
     font-size: 5vh;
 }
 
-.sub-heading {
+/* .sub-heading*/ h2 {
     font-family: 'Rubik', sans-serif;
     font-size: 4vh;
 }

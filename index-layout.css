@@ -1,31 +1,30 @@
+/*This document contains the layout information unique to index.html */
+
+
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./images/me1440.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  height: 95vh;
-  margin: 0px;
+    /*This section of code controls the background image for portrait mode display; including a slight shading to make text easier to read*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./images/me1440.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*Height set to allow for proper alignment and not overlapping navbar*/
+    height: 95vh;
 }
 
- .main-image {
+/*Image is set as background and also present as an element in index.html
+Display of image element needs to be hidden for portrait mode*/
+.main-image {
     display: none;
 }
-/*
- .welcome {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 5vh;
-} */
+
 
 .welcome {
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: none;
 }
 
 .heading, .sub-heading {

@@ -5,7 +5,7 @@ Then, rules for positioning and coloration to prevent the appearance of blog art
 .card-box {
     display: flex;
     justify-content: space-around;
-    align-items: space-around;
+    align-items:center;
     
     position: sticky;
     top: 0;
@@ -40,7 +40,11 @@ Then, rules for positioning and coloration to prevent the appearance of blog art
 /*Heading sizes set manually to avoid display conflicts.
 h1, for example, overflows card space*/
 h1, h2 {
-    color: initial;
+    color: #494548;
+    font-size: 3vh;
+}
+
+h3, h4 {
     font-size: 2vh;
 }
 
@@ -68,9 +72,11 @@ h1, h2 {
     padding-bottom: 6vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-items: space-between;
-    
+    align-items: center;    
+}
+
+li {
+    color: #494548;
 }
 
 article {
@@ -79,13 +85,9 @@ article {
     padding: 1em;
 }
 
-article h3, h4 {
+h3, h4 {
     color: #ffbd59;
 } 
-
-p{
-    color: #ffbd59
-}
 
 @media only screen and (orientation: landscape) {
    
@@ -93,14 +95,12 @@ p{
     body {
         display: flex; 
         flex-direction: column;
-        align-items: space-around;
         justify-content: space-around;
     } 
   
     /*Parent container for card needs to be repositioned for intended layout*/
     .card-box {
         position: fixed;
-        align-self: space-around;
         top: 2vh;
         width: 40vw; 
     }
@@ -147,5 +147,18 @@ Card now resized smaller and centered vertically. Vertical centering requires un
     
     .card {
         height: 60vh;
+    }
+
+    /*Card contents require some tweaking to spacing and sizing to display proportionally with new card size*/
+    #blog-img {
+        width: 15vw;
+    }
+
+    .card-left {
+        flex: 70%
+    }
+
+    .card-right {
+        flex: 30%;
     }
 }

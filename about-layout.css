@@ -8,7 +8,7 @@
 }
 
 /*Rules used to align text in parent container*/
-article {
+.about-section {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -23,11 +23,8 @@ h1 {
 }
 
 /*Rules governing the text containers of the page.
-For ease of understanding, I have seperated the code into rules governing the text itself, spacing, and internal alignment. */
+For ease of understanding, I have seperated the code into rules governing spacing and internal alignment. */
 .text {
-    color: #ffbd59;
-    
-
     margin: 3vh;
 
     display: flex;
@@ -38,8 +35,6 @@ For ease of understanding, I have seperated the code into rules governing the te
 
 p {
     padding: 3vw; 
-    font-size: 2vh;
-
 }
 
 /*Rules governing the size and layout of the containers which house the link and caption icons.
@@ -51,11 +46,11 @@ p {
     align-items: center;
 }
 
-/*The logo images need to be */
+/*The logo images need to be sized equal to their captions, and associated with the 'slide' animation*/
 .logo {
     animation-name: slide;
     animation-duration: 3s;
-    width: 24vw;
+    width: 25vw;
 }
 
 /*The 'caption' icons require the most styling; as they are created entirely from code. Typically I would create an image to use and include an <img> element.
@@ -127,7 +122,7 @@ the caption elements*/
     }
 
     /*Alignment rules changed to reflect different orientation.*/
-    article {
+    .about-section {
         display: flex;
         flex-direction: row;
         align-items: center;

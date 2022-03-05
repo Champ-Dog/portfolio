@@ -1,128 +1,98 @@
+
 body {
-    
+    /*This section of code controls the background image for portrait mode display; including a slight shading to make text easier to read*/
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./images/me1440.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-  /*  overflow: hidden; */
-    height: 95vh;
-    margin: 0px;
-
-    height: 95vh;
+    
+    /*Alignment of items on the page*/
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    bottom: 5vh;
+    
+    /*Height set to allow for proper alignment and not overlapping navbar*/
+    height: 95vh;
 }
 
+/*Image is set as background and also present as an element in index.html
+Display of image element needs to be hidden for portrait mode*/
 .main-image {
     display: none;
 }
 
-.heading {
-    text-align: center;
-}
-
+/*Sizing  for parent container and internal alignment rules*/
 .contacts {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    text-align: left;
-    width: 75vw;
     height: 25vh;
 }
 
+/*Alignment rules for individual icon/text pairs*/
 #linkedin, #github, #email {
     display: flex;
     width: 75vw;
     justify-content: space-between;
-    /* margin: 1px; */
+    align-items: center;
+
 }
 
-img {
-    background: none;
-}
-
+/*Sizing rules for icons*/
 .logo {
     width: 10vw;
     height: 10vw;
-    justify-self: flex-start;
 }
 
+/*Sizing, alignment and color for text links. Specified as child of div so as not to impact navbar*/
 div > a {
     align-self: center;
     font-size: 7vw;
-}
-
-#page-end {
-    justify-self: flex-end;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    width: 100vw;
-}
-
-#closing-image {
-    display: none;
-    width: 75vw;
-    justify-self: flex-end;
-    align-self: center;
-}
-
-.alignment-bottom {
-    height: 5vh;
-    width: 100vw;
-}
-
-.contacts a {
-    background: none;
     font-weight: 900;
     color: #ffbd59;
-} 
+}
 
-@media only screen and /*(min-width: 715px)*/ (orientation: landscape) {
-     body {
+
+@media only screen and (orientation: landscape) {
+
+    body {
+        /*background-image set to none to cancel it's display and allow for seperate image element*/
         background-image: none;
-        display: flex;
+        
+        /*FlexBox settings need to be changed to allow for correct spacing, change of layout from vertical to horizontal, and the introduction of the main-image element.*/
         flex-flow: row-reverse;
         flex-wrap: wrap;
-        align-content: center;
         justify-content: space-around;        
     }
 
+    /*The image needs to have display properties set as the background image is no longer present*/
     .main-image {
         display: block;
         max-height: 80vh;
-        max-width: 45vw;
         box-shadow: 0 2vw 2vh 0 rgba(0,0,0,0.5);   
-        flex: 50%; 
     }
 
+    /*Sizing adjusted to suit new layout*/
     .contacts {
-        position: initial;
-        align-self: center;
         max-width: 40vw;
-        justify-content: space-around;
         height: 40vh;
-        flex: 50%;
     }
 
+    /*Width adjusted to allow for display alongside image*/
     #linkedin, #github, #email {
-    display: flex;
-    max-width: 40vw;
-
-    justify-content: space-between;
+        max-width: 40vw;
     }
     
+    /*font-size changed to scale off view-height, to maintain proportion vs portrait display*/
     div > a {
-    align-self: center;
-    font-size: 7vh;
+        font-size: 7vh;
     }
 
+    /*Sizing adjusted to suit new layout*/
     .logo {
-    width: 5vw;
-    height: 5vw;
+        width: 5vw;
+        height: 5vw;
     }
 }

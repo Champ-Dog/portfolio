@@ -1,18 +1,16 @@
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: space-around;
-  
-}
+/*Layout for container containing the blog card. 
+For ease of understanding, code seperated into two sections.
+First section contains rules governing position of child element, and and positioning and color rules to prevent the appearance.
+Then, rules for positioning and coloration to prevent the appearance of blog articles scrolling "behind" the blog card.*/
 .card-box {
     display: flex;
     justify-content: space-around;
     align-items: space-around;
+    
     position: sticky;
     top: 0;
-    justify-self: flex-start;
     background-color: #637789; 
+    
 }
 
 .card {
@@ -22,9 +20,10 @@ body {
     margin: calc(15vw /2) calc(15vw /2)  calc(15vw /4) calc(15vw /2);
     overflow: hidden;
     display: flex;
-    justify-content: space-around;   
+    justify-content: space-around;       
 }
 
+/*Layout rules governing the items on the left of the blog card, namely the image, heading, and subheading.*/
 .card-left {
     flex: 50%;
     display: flex;
@@ -38,17 +37,21 @@ body {
         width: 20vw;
 }
 
+/*Heading sizes set manually to avoid display conflicts.
+h1, for example, overflows card space*/
+h1, h2 {
+    color: initial;
+    font-size: 2vh;
+}
+
+/*Rules for aligning the navigation section of the blog card*/
 .card-right {
     flex: 50%;
+
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-  /*  overflow-y: scroll;    */
-}
-
-h {
-    display: block;
 }
 
 .blog-nav {
@@ -56,99 +59,55 @@ h {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-   
     max-width: 30vw;
 }
 
+/*Padding-bottom set to prevent overlap with navbar. Max-width set to prevent sideways scrolling on some displays*/
 .container {
-    align-self: center;
-    width: 100vw;
+    max-width: 100vw;
+    padding-bottom: 6vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: space-between;
-    padding-bottom: 6vh;
     
 }
-article {
-    width: 75vw;
-    background-color: rgba(245,245,220, 0.5);
-    border-radius: 1vh;
-    padding: 1vh 3vw;
-    margin: 2vh 2vw;
-    bottom: 6vh;
-}
-
-
-.alignment {
-    height: 6vh;
-}
-
-/* Using alignment container to blank out text scrolling under the blog card - unsuccessful
-.alignment {
-    width: 100%;
-    height: 30vh;
-    position: fixed;
-    top: 0;
-}
-
-
-/* .card {
-    position: fixed;
-    background-color: #ffbd59;   
-    width: 85vw;
-    height: 25vh;
-    margin: 1vh calc(15vw /2);   
-}
-
-.alignment {
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    height: 30vh;
-    margin: none;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    bottom: 25vh;
-    top: 75vh;
-    margin: 3vh calc(15vw /2);
-}
 
 article {
     width: 75vw;
-    background-color: rgba(245,245,220, 0.5);
-    margin:3vh calc(15vw /2);
-    border-radius: 1vh;
-    padding: 1vh;
+    text-align: center;
+    padding: 1em;
 }
-*/
 
-@media only screen and /* (min-width: 900px)*/ (orientation: landscape) {
+article h3, h4 {
+    color: #ffbd59;
+} 
+
+p{
+    color: #ffbd59
+}
+
+@media only screen and (orientation: landscape) {
+   
+    /*Rules for <body> become necessary to allow the new page layout. Redundant rules had been introduced earlier in document, merged with this section. */
     body {
-       /* display: flex; */
-        flex-wrap: wrap; 
+        display: flex; 
+        flex-direction: column;
         align-items: space-around;
         justify-content: space-around;
     } 
   
-   /* .alignment {
-        display: none;
-    } */
-
+    /*Parent container for card needs to be repositioned for intended layout*/
     .card-box {
         position: fixed;
-        justify-self: center;
         align-self: space-around;
         top: 2vh;
-        width: 50vw;
-        
+        width: 40vw; 
     }
 
+    /*Dimensions and alignment of card change for new position and layout
+    Padding set to make better use of space, so elements aren't nearing edges of card
+    Margin set to maintain proper positioning*/
     .card {
         max-width: 30vw;
         height: 85vh;
@@ -157,55 +116,36 @@ article {
         flex-direction: column;
     }
 
-  
-
-    .blog-nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     .container {
-        width: 50vw;
-        /* flex: 50%; */
-        justify-self: center;
+        width: 60vw;
         align-self: flex-end;
+        padding-top: 2vh;
     }
 
+    /*Padding and margin rules allow for better spacing between articles and alignment within page
+    Text-alignment changed as "center" looks incongrous with this layout*/
     article {
-        width: 40vw;
-        border-radius: 1vh;
+        width: 50vw;
+        
         padding: 1vh 3vw;
         margin: 2vh 2vw;
+        text-align: left;
+    }
+
+    .card-left {
+        justify-content: space-around;
     }
 }
 
-    /*.card {
-        position: fixed;
-        display: block;
-        width: 45vw;
-        height: 87vh;
-        margin: none;
-        top: 3vh;
-        left: -3vw; 
+/*Card looks quite empty on particularly large landscape displays.
+Card now resized smaller and centered vertically. Vertical centering requires uneven positioning to allow for space taken by navbar*/
+@media only screen and (min-height: 1000px) {
+    .card-box {
+        margin-top: 10vh;
+        margin-bottom: 25vh;
     }
-
-    .container {
-        position: absolute;
-        display: block;
-        right: 3vw;
-        width: 45vw;
-        height: auto;
-        top: 3vh;
-        bottom: 15vh; */
-  /*      overflow:
-        
-        margin: auto;
+    
+    .card {
+        height: 60vh;
     }
-
-    article {
-        width: 40vw;
-        margin: none;
-        padding: none;
-        justify-self: flex-end;
-    } */
+}

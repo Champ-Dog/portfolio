@@ -1,6 +1,3 @@
-/*This document contains the layout information unique to index.html */
-
-
 body {
     /*This section of code controls the background image for portrait mode display; including a slight shading to make text easier to read*/
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./images/me1440.jpg);
@@ -31,11 +28,11 @@ Display of image element needs to be hidden for portrait mode*/
 @media only screen and (orientation: landscape) {    
     
     /*Alignment of items on the page needs to be changed from vertial to horizontal.
-    FlexBox settings need to be changed to allow for correct spacing and the introduction of the main-image element*/
+    FlexBox settings need to be changed to allow for correct spacing and the introduction of the main-image element.
+    background-image set to none to cancel it's display and allow for seperate image element*/
     body {
         background-image: none;
-        display: flex;
-        flex-direction: row;
+
         flex-wrap: wrap;
         align-content: space-around;
         justify-content: space-around;        
@@ -49,16 +46,7 @@ Display of image element needs to be hidden for portrait mode*/
     }
 
     .welcome {
-        position: static;
-        top: auto;
-        left: auto;
-        transform: none;
         align-self: center;
         max-width: 30%;
-    
-       /* background-color: rgba(203, 209, 214, 0.5);
-        box-shadow: 0 2vw 2vh 0 rgba(0,0,0,0.5);  
-        padding: 1vw;
-        */
     }
 }

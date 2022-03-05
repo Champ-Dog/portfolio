@@ -1,61 +1,80 @@
+/*Basic alignment of elements on page. Bottom padding to avoid conflict with navbar*/
 .content {
-    max-height: 95vh; 
-    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 6vh;
 }
 
-h3 {
+/*Rules used to align text in parent container*/
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/*Font-size set manually as <h1> default is too large to fit as intended on smaller screens*/
+h1 {
+    font-size: 3vh;
     padding: 3vw; 
 }
 
+/*Rules governing the text containers of the page.
+For ease of understanding, I have seperated the code into rules governing the text itself, spacing, and internal alignment. */
 .text {
+    color: #ffbd59;
+    
+
     margin: 3vh;
-    background-color: none;
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    color: #ffbd59;
-    font-size: 2vh;
-    box-shadow: none; 
 }
 
 p {
     padding: 3vw; 
+    font-size: 2vh;
+
 }
 
+/*Rules governing the size and layout of the containers which house the link and caption icons.
+*/
 .link {
-    height: 25vh;
     width: 90vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+/*The logo images need to be */
 .logo {
-    position: relative;
     animation-name: slide;
     animation-duration: 3s;
-}
-
-img {
     width: 24vw;
-    display: inline-block;
 }
 
+/*The 'caption' icons require the most styling; as they are created entirely from code. Typically I would create an image to use and include an <img> element.
+However I wanted to recreate a similar effect using CSS for practice; and since I'm not being assessed on my ability to use Canva.
+Creating an image would likely yield a more consistent result across different display sizes; but I accepted the trade-off to gain practice with a new skill.
+For ease of understanding, I have seperated different aspects of the code: text, sizing, background + coloration, and alignment.*/
 .caption {
     font-size: 2vh;
+    text-align: center;
+    font-weight: 1000;
+
     width: 25vw;
     height: 25vw;
-    text-align: center;
+
     background-color: #ffbd59;
     border-radius: 1em;
     color: #637789;
     padding: 2vh;
-    font-weight: 1000;
+    
     display: flex;
     justify-content: space-around;
     align-items:center;
@@ -63,6 +82,9 @@ img {
     z-index: 1;
 }
 
+
+/*This controls the animation causing the icons to slide from under
+the caption elements*/
 @keyframes slide {
     from {
         transform: translate(36vw)
@@ -70,20 +92,6 @@ img {
     to {
         transform: translate(0)
     }
-}
-
-/* .alignment {
-    height: 1vh;
-    width: 100vw;
-    margin: 9vh;
-    display: block;
-} */
-
-article {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
 }
 
 @media only screen and (orientation: landscape) {
@@ -95,22 +103,13 @@ article {
         max-width: 10vw;
         right: 2vw;
     }
-
+    /*Captions require resizing. As they scale off viewport dimensions, without adjustment they become disproportionate to the rest of the display.*/
     .caption {
         width: 10vw;
         height: 10vw;
-        background-color: #ffbd59;
-        border-radius: 1em;
-        color: #637789;
-        
-        /* font-size: 4vh; */
-        font-weight: 1000;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        
     }
 
+    /*Animation needs to be reconfigured for landscape displays to adjust for different positioning and viewport dimensions.*/
     @keyframes slide {
         from {
             transform: translate(10vw)
@@ -120,18 +119,14 @@ article {
         }
     }   
 
-
+    /*Text-based elements take up a little too much horizontal display space left to their own devices.
+    They also display at slightly differing sizes, depending on contents. This has adverse effect on position of visual components, which appear staggered.
+    Max-width set ensure uniformity.*/
     .text {
         max-width: 60vw;
-        flex-direction: column;
-        align-items: flex-start;
-        font-size: 3vh;
     }
 
-    .alignment {
-        display: none;
-    }
-
+    /*Alignment rules changed to reflect different orientation.*/
     article {
         display: flex;
         flex-direction: row;

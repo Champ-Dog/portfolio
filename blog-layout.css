@@ -139,7 +139,7 @@ p{
 
 /*Card looks quite empty on particularly large landscape displays.
 Card now resized smaller and centered vertically. Vertical centering requires uneven positioning to allow for space taken by navbar*/
-@media only screen and (min-height: 1000px) {
+@media only screen and (orientation: landscape) and (min-height: 1000px) {
     .card-box {
         margin-top: 10vh;
         margin-bottom: 25vh;

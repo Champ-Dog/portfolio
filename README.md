@@ -1,6 +1,9 @@
-# Portfolio
+### Note
+This document is a clone of the `README.md` document within the 'Cameron_Tape_T1A2' directory. 
 
+That directory has been structured in a specific way to meet the guidelines of the assessment for which this project was built. This cloned document is not part of the assessment. As such, this document contains non-functional links to images; the links being copied from the original document. It is important for assessment purposes that the linked images function properly in the original document located in the filepath the brief demands. If you wish to see the fully functioning README for this project, please refer to the original `README.md` located in the 'Cameron_Tape_T1A2' directory.
 
+Thank you, and stay brilliant!
 
 # Portfolio Website
 This repo contains the code and other assets used to build my portfolio site.
@@ -30,12 +33,11 @@ This project was built with these technologies:
 
 Included in the repo for this project should be:
 - 1 `README.md` file (you found it!) describing the project
-- Cameron_Tape_T1A2 directory; containing 3 directories and a clone of this `README.md` file. 
+- Cameron_Tape_T1A2 directory; containing 3 directories and the original of this `README.md` file
 
 ### src directory
 - 1 `index.html` file, the landing page for the website
-- 1 `README.md` file, replicated to meet submission criteria.
-- css directory
+- css directory - detailed below
 - docs directory - detailed below
 - images directory - detailed below
 - pages directory - detailed below

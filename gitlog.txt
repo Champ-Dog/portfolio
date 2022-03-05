@@ -1,0 +1,313 @@
+commit 3f72bd4861800af54dc9f1afdfb80c009fc781d2
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Sat Mar 5 20:44:24 2022 +1100
+
+    changes for submission should be finalised. This is intended as the final commit for testing before submission
+
+commit 66b9e33b21cc9ff61c9f8c7691dc04d45cc47f04
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Sat Mar 5 20:28:58 2022 +1100
+
+    tweaks for submission
+
+commit 4e63b3c1553d050ef06b29c9368f3cace4a8c91d
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Sat Mar 5 20:10:34 2022 +1100
+
+    file tree overhaul for deployment and hand-off
+
+commit 7b15dec265b86c736d59d0e36253ffecc2df374a
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Sat Mar 5 17:03:25 2022 +1100
+
+    added image to blog articles, styled appropriately
+
+commit 8dc47d34fdf7cbe0eae276e885e0f8a3d7888da5
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Sat Mar 5 15:41:18 2022 +1100
+
+    commit for real-world testing
+
+commit 7880b9aa4b0abf4d65c730bbf08826217dcdddf6
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Sat Mar 5 15:16:26 2022 +1100
+
+    fixed coding errors highlighted by validators
+
+commit 16ddfb01ba9f8ee8ac907e83d339365c39bb85dd
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Sat Mar 5 14:26:13 2022 +1100
+
+    fixed issue in blog page layout
+
+commit fa766a0c2eabaaccef48391a0b1fcd9e115ef9bf
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Sat Mar 5 13:55:13 2022 +1100
+
+    commenting and cleanup almost complete commiting before making some experimental changes to blog.html
+
+commit 528198ddc9d2fc8c0444fe110f3802aeebb90d7e
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Fri Mar 4 21:01:27 2022 +1100
+
+    minor adjustments, comments, etc
+
+commit f81db6e63d88f13109810524452c91200d982729
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Fri Mar 4 17:35:41 2022 +1100
+
+    cleaning up code, part way through, committing as save point
+
+commit 23877ca7092d82ab0b14561f098d3f1ea5c4a066
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Fri Mar 4 11:46:57 2022 +1100
+
+    README updated, needs final update before hand-off
+
+commit acb8682c6ccb4c48c3b8cdb52fa74a384a971ab5
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Fri Mar 4 10:48:17 2022 +1100
+
+    tweaked same layout and display issues, updating README
+
+commit b006b30eb71c6f8291e8cc81d6b08a129ad03d6d
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Fri Mar 4 09:18:40 2022 +1100
+
+    fixed email link
+
+commit 56ec67bf8eac9937d17a6bc5345575ac80f49022
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Thu Mar 3 12:25:19 2022 +1100
+
+    README.md updated, initial draft complete. Old and reference content still included, to be removed before project completion
+
+commit e93e7a0463a0d42eb9778d02fdb89c3f7bd30b3c
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Thu Mar 3 09:47:43 2022 +1100
+
+    rephrased work section of about-me.html
+
+commit 36724de8fb9599ccfeb7767e13b568d0dc98bbf3
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Wed Mar 2 17:00:23 2022 +1100
+
+    live link to resume
+
+commit 60e55d6bd850e3b482d77e5220c8c85a61ce144a
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Wed Mar 2 15:58:33 2022 +1100
+
+    real world testing
+
+commit 0a8b10be6a51b6f1f09a5489aacb96b608ef4be3
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Wed Mar 2 15:48:14 2022 +1100
+
+    layout complete, functional prototype
+
+commit e272de182f011c1fa5fb763a334a22d8afc76d7d
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Wed Mar 2 14:46:34 2022 +1100
+
+    finish rework of basic landscape layout for about-me
+
+commit 2d1d13b90b576f4dc32a0f4a5962d5fe562d5f4f
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Wed Mar 2 12:46:50 2022 +1100
+
+    more layout work, design isnt practical or user friendly
+
+commit 0b233cea0aa4663e654cdf4235552d907a9c278f
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Wed Mar 2 12:04:03 2022 +1100
+
+    introduced some elements on about-me.html to closer reflect end-state. commit to test real-world display
+
+commit 0bf1d2f73a68749cc6deccfa59868822f118c963
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Tue Mar 1 21:02:18 2022 +1100
+
+    playing with text layouts, finishing for day
+
+commit 660cbade6009e5b942bf1239303b01a17187b681
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Tue Mar 1 20:35:36 2022 +1100
+
+    adding content to about-me.html
+
+commit 166fe446dbdf7174efae6622e0b0c5fe9371417a
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Tue Mar 1 16:21:23 2022 +1100
+
+    broad layout reworked. added transparent icons to contacts page
+
+commit 68b266e810643f7a48b89d9be6997df583896653
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Tue Mar 1 12:23:53 2022 +1100
+
+    continue layout tweaks. pushing to test on real device
+
+commit d395c6872b8be56a6d97e1fd6495945e017b83ca
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Tue Mar 1 09:58:04 2022 +1100
+
+    nice looking small desktop layout
+
+commit 469fab2075ab71c4dc9ca824b4783cb253c89106
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Tue Mar 1 09:42:33 2022 +1100
+
+    updating layouts
+
+commit 80bd22be92f876846c2dfe0d6bcd4ba98e05d3f3
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Mon Feb 28 21:00:53 2022 +1100
+
+    updated layouts for larger displays
+
+commit c521a2da3043b163ef0a1a4b682939ee39c60e26
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Mon Feb 28 18:28:16 2022 +1100
+
+    updated blog layouts to flexbox
+
+commit d04ba57ad2d732fd431fcf7d676b5340f31c69c5
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Mon Feb 28 17:04:16 2022 +1100
+
+    layout almost finished - need to re-code blog layout to acommodate flexbox
+
+commit 6482c06951d6cd91ea984913c4b45b1d27f64008
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Mon Feb 28 14:14:54 2022 +1100
+
+    styling landing page, break for lunch
+
+commit fa41613dc8be19efc10b502ca0a9e1a943002214
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Mon Feb 28 11:56:34 2022 +1100
+
+    live links on contact page
+
+commit ab740b4e4ebe179896382755b90ff96e99db197a
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Mon Feb 28 11:50:53 2022 +1100
+
+    finish initial blog tablet layout. beginning contact tablet layout
+
+commit 7988f754668839296ef16230cd5cdcd2feadbbd4
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Mon Feb 28 10:06:57 2022 +1100
+
+    unsuccessful attempts for tablet About Me layout. saving before class so I can see what I have tried
+
+commit fe9aed1a39fee4ae57856aba6454ecc587a8a22a
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Mon Feb 28 09:33:34 2022 +1100
+
+    updated index.html styling - cautious success. TBC
+
+commit c66398da9037cf8bf120111c341720ae5de98193
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Mon Feb 28 09:25:27 2022 +1100
+
+    added test pages to test background settings. Restore point before amending primary code
+
+commit d6f106dd185b8a22537e5b03e6bebba17e32ff65
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Sun Feb 27 21:25:59 2022 +1100
+
+    begun breakpoint styling
+
+commit 1a53b0ab2b86cc878a709fb223499291ebe9cb2b
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Fri Feb 25 23:27:31 2022 +1100
+
+    all basic mobile layouts finished. some styling
+
+commit 4042b5b3b48c7b2f91a3b6012822f00ad3d2e655
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Fri Feb 25 19:12:39 2022 +1100
+
+    pausing for dinner
+
+commit 1c126cd6ab7867ae17049bbebac1af1ba96daf0d
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Fri Feb 25 19:11:50 2022 +1100
+
+    pausing for dinner
+
+commit fd274417939fbfdd8e4e8bae4dddcff8615ed222
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Fri Feb 25 18:39:22 2022 +1100
+
+    continuing work on mobile layouts
+
+commit 08951ab5d6108b77e0b885658c0274924c1a1ce9
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Fri Feb 25 17:12:19 2022 +1100
+
+    changed navbar container from div to footer
+
+commit c77c8e1363e2fa06a6be93626e8843e17b29d288
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Fri Feb 25 17:08:23 2022 +1100
+
+    removed redundant folder and repo
+
+commit 2156aec000fa04a35b79ae088a4257d6a0c7d16f
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Fri Feb 25 16:37:43 2022 +1100
+
+    Create README.md
+    
+    Creating new README.md through GitHub to attempt to fix compatibility issues. GitHub did not appear to recognise initial README created from local repo.
+
+commit 01092861647c307b425c05e5d2cc0a517d0b43e6
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Fri Feb 25 16:32:50 2022 +1100
+
+    removed README due to GH compatibility issue
+
+commit f1459675d2058061a4f2c97b7ce410afe172ec13
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Fri Feb 25 16:20:26 2022 +1100
+
+    basic layout for homepage and about me complete
+
+commit 7099bfa4905b45a0b82f895a246480e3f8b56984
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Thu Feb 24 22:31:57 2022 +1100
+
+    updated nav bar. going to bed for real now
+
+commit a035f97d5fa38ad3b34626c0ef4d0e48a0252a83
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Thu Feb 24 22:19:12 2022 +1100
+
+    update welcome text create README
+
+commit 4104a3bf53a8ded36bb0d8f345af123b01560faa
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Thu Feb 24 22:17:14 2022 +1100
+
+    updated welcome text
+
+commit 0f458dd7daf5873296d6a3801d9aad7849a7926a
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Thu Feb 24 22:14:33 2022 +1100
+
+    shells for all pages, initial styling begun
+
+commit f937f25be62d4feb067e32829e150634dc3cf8e2
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Thu Feb 24 17:57:10 2022 +1100
+
+    renamed html to publish
+
+commit e368cb1f83d87121c8f3d011851148fb6cc882dc
+Author: Champ-Dog <champdog.code@gmail.com>
+Date:   Thu Feb 24 17:01:17 2022 +1100
+
+    initial commit, testing purpose only

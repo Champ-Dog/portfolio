@@ -1,27 +1,6 @@
 # Portfolio
 
-This is a portfolio website I am developing (or will have developed, if you read this in the future) for my portfolio assessment at Coder Academy.
-More details will be included here as work continues.
 
-25/2/22
-Currently project should include basic HTML shells for the four pages of the website. 
-Am working on layout and some initial styling for mobile. 
-
-
-README document
-General project documentation is to be compiled as a single markdown file named README.md. This file should contain,
-
-A link (URL) to your published portfolio website
-A link to your GitHub repo
-Description of your portfolio website, including,
-Purpose
-Functionality / features
-Sitemap
-Screenshots
-Target audience
-Tech stack (e.g. html, css, deployment platform, etc)
-
-Check this [guide to writing README documents](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
 
 # Portfolio Website
 This repo contains the code and other assets used to build my portfolio site.
@@ -31,8 +10,7 @@ https://github.com/Champ-Dog/portfolio
 
 
 The website itself can be found here:   
-https://champ-dog.github.io/portfolio
-
+https://ct-portfolio-t1a2.netlify.app
 ## General Description + Purpose
 This website will function as a digital business card, resume, and first point of contact. The expected audience includes professional contacts, potential employers, and clients.
 
@@ -48,19 +26,31 @@ This project was built with these technologies:
 - CSS3
 - Git
 - GitHub
-- GitHub Pages
+- [Netlify](https://www.netlify.com/)
 
 Included in the repo for this project should be:
-### src directory
-- 4 `.html` files, one for each of the four pages of the website
-- 5 `.css` files, containing layout and style instructions for the pages.
-- An images directory, containing the images used in the website
-- A `.pdf` file containing a mock-up resume (to be updated)
 - 1 `README.md` file (you found it!) describing the project
-- Sitemap files
+- Cameron_Tape_T1A2 directory; containing 3 directories and a clone of this `README.md` file. 
 
-- A docs directory, containing the content linked to by this document
-- 
+### src directory
+- 1 `index.html` file, the landing page for the website
+- 1 `README.md` file, replicated to meet submission criteria.
+- css directory
+- docs directory - detailed below
+- images directory - detailed below
+- pages directory - detailed below
+
+### pages directory
+- 3 `.html` documents, making up the remaining pages for the website
+
+### css directory
+- 5 `.css` documents, containing styling instructions for the website
+
+### images directory
+- 11 image files, used throughout the website
+
+### docs directory
+- 1 `.pdf` file containing a mock-up resume (to be updated)
 
 ## Features
 The website contains four pages:

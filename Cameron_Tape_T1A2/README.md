@@ -82,8 +82,8 @@ This page contains a brief introduction to me, my interests, and professional hi
 This is a blog page, initially containing filler text. Going forward my plan is to fill this with existing and future writing. Currently content is included in the `.html` document for this page; I plan to restructure this page to allow linking to external or included files. This should minimise the need to edit the base code for the page when new content is added.  
 As well as the actual content of the blog posts, this page also includes a navbar, allowing the user to navigate directly to a specific post.
 
-![Screenshot showing mobile layout of blog page](./docs/blog-mobile.jpg)
-![Screenshot showing desktop layout of blog page](./docs/blog-desktop.jpg)
+![Screenshot showing mobile layout of blog page](./docs/blog-mobile.png)
+![Screenshot showing desktop layout of blog page](./docs/blog-desktop.png)
 
 ### Contact
 A contact page, which will invite the user to follow my professional accounts and other projects, and contact me directly. This page includes the same image as the landing page, adding a personal touch to the invitation to connect. This page mirrors the layout of the landing page, to give a sense of framing the site.

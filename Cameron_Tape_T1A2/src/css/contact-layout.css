@@ -1,7 +1,7 @@
 
 body {
     /*This section of code controls the background image for portrait mode display; including a slight shading to make text easier to read*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./images/me1440.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/me1440.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

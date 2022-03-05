@@ -11,10 +11,7 @@ body {
     background-color: #637789;
 }
 
-/*.card {
-        box-shadow: 0 2vw 2vh 0 rgba(0,0,0,0.5);
-}*/
-
+/*Default settings for <h1> and <h2> elements across all pages.*/
 h1, h2 {
     color: #ffbd59;
 }
@@ -29,17 +26,19 @@ h2 {
     font-size: 4vh;
 }
 
+/*Default font size and color for <p> elements across all pages*/
 p {
     font-size: 2vh;
     color: #ffbd59;
 }
 
+/*Default color for links across all pages*/
 a {
     color: #494548;
     text-decoration: none;
 }
 
-/* Layout for Footer - this should be universal across all pages */
+/* All below is layout for Footer - this should be universal across all pages */
 
 footer {
     position: fixed;
@@ -67,9 +66,6 @@ nav a {
     margin: 1vh;
     border: 1vh;
     border-radius: 1vh;
-    padding: 1vh;
-    /*background-color: #ffbd59; */
-    
-    
+    padding: 1vh;   
 }
 

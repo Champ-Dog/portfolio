@@ -10,31 +10,31 @@
 </head>
 <body>
 
-    <!--Container for main image, to allow for easier alignment with FlexBox-->
+    <!--Container for main image, to allow for easier alignment with FlexBox. Image only displays in landscape orientation.-->
     <div class="image-box">
         <img class="main-image" src="./images/me1440.jpg" alt="A photo of yours truly, taken by my wife while waiting for brunch">
     </div>
 
-    <!--This element contains the links, text and logos making up my contact information, and allows for their alignment.
-        Each logo/text pair is in it's own container, to allow for internal alignment with FlexBox.
-        Any further contact/follow information should be seperated into it's own container and inserted here-->
+    <!--This element contains the components making up my contact information, and allows for their alignment.
+        Each linked platform/mode of contact is seperated into its own <div> container for alignment purposes, and includes a text and visual (logo) component.
+        Any further contact/follow information should include its own text and logo; and be seperated into its own container and inserted below-->
     <div class="contacts">
 
         <!--LinkedIn information goes here-->
         <div id="linkedin">
-            <img class="logo" src="./images/linkin-icon.png" alt="">
+            <img class="logo" src="./images/linkin-icon.png" alt="LinkedIn logo">
             <a href="www.linkedin.com/in/camerontape" target="_blank">LinkedIn</a> 
         </div>
         
         <!--GitHub information goes here-->
         <div id="github">
-            <img class="logo" src="./images/github-icon.png" alt="">
+            <img class="logo" src="./images/github-icon.png" alt="GitHub logo">
             <a href="https://github.com/Champ-Dog" target="_blank">GitHub</a>
         </div>
 
         <!--Email goes here-->
         <div id="email">
-            <img class="logo" src="./images/email-icon.png" alt="">
+            <img class="logo" src="./images/email-icon.png" alt="Icon depicting an envelope">
             <a href="mailto:ceedev@duck.com">Email</a>
         </div>
     </div>

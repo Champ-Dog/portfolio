@@ -42,13 +42,14 @@ h1, for example, overflows card space*/
 h1, h2 {
     color: #494548;
     font-size: 3vh;
+    padding: 1vh;
 }
 
 h3, h4 {
     font-size: 2vh;
 }
 
-/*Rules for aligning the navigation section of the blog card*/
+/*Rules for aligning the navigation component of the blog card*/
 .card-right {
     flex: 50%;
 
@@ -66,7 +67,12 @@ h3, h4 {
     max-width: 30vw;
 }
 
-/*Padding-bottom set to prevent overlap with navbar. Max-width set to prevent sideways scrolling on some displays*/
+/*This sets the colour of the bullet points displayed next to the <li> items making up the blog navigation*/
+li {
+    color: #494548;
+}
+
+/*Padding-bottom set to <div> element containing blog <article> elements, to prevent overlap with navbar. Max-width set to prevent sideways scrolling on some displays*/
 .container {
     max-width: 100vw;
     padding-bottom: 6vh;
@@ -75,19 +81,20 @@ h3, h4 {
     align-items: center;    
 }
 
-li {
-    color: #494548;
-}
-
+/*Alignment and display rules governing the blog <article> elements and the text in their child elements*/
 article {
     width: 75vw;
-    text-align: center;
     padding: 1em;
+    text-align: center;
+    color: #ffbd59;
 }
 
-h3, h4 {
-    color: #ffbd59;
-} 
+/*Rules for the sizing, display, and alignment of images in the blog articles.*/
+article > img {
+    width: 20vw;
+    justify-self: center;
+    display: inline-block;
+}
 
 @media only screen and (orientation: landscape) {
    
@@ -116,29 +123,36 @@ h3, h4 {
         flex-direction: column;
     }
 
+    /*Re-alignment of heading and image in blog card required to accomodate new layout*/
+    .card-left {
+        justify-content: space-around;
+    }
+
+    /*The parent <div> housing the blog <article> elements needs some adjustment to display correctly in new layout.*/
     .container {
         width: 60vw;
         align-self: flex-end;
         padding-top: 2vh;
     }
 
-    /*Padding and margin rules allow for better spacing between articles and alignment within page
+    /*New padding and margin rules allow for better spacing between articles and alignment within page
     Text-alignment changed as "center" looks incongrous with this layout*/
     article {
         width: 50vw;
-        
         padding: 1vh 3vw;
         margin: 2vh 2vw;
         text-align: left;
     }
 
-    .card-left {
-        justify-content: space-around;
-    }
+    /*Changes to the sizing of images in the blog articles are required to keep image size appropriate*/
+    article > img {
+        width: 15vw;
+    }   
 }
 
 /*Card looks quite empty on particularly large landscape displays.
-Card now resized smaller and centered vertically. Vertical centering requires uneven positioning to allow for space taken by navbar*/
+New media breakpoint resizes card to be smaller, and centered vertically. Appearance of vertical centering requires uneven positioning values to allow for space taken by navbar.
+Below rules impact only the blog card, and it's children and contents.*/
 @media only screen and (orientation: landscape) and (min-height: 1000px) {
     .card-box {
         margin-top: 10vh;
@@ -149,7 +163,7 @@ Card now resized smaller and centered vertically. Vertical centering requires un
         height: 60vh;
     }
 
-    /*Card contents require some tweaking to spacing and sizing to display proportionally with new card size*/
+    /*Components of the blog card - navigation, image, and heading require some tweaks to spacing and sizing to display proportionally with new card size*/
     #blog-img {
         width: 15vw;
     }

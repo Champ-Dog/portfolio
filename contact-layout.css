@@ -1,3 +1,4 @@
+
 body {
     /*This section of code controls the background image for portrait mode display; including a slight shading to make text easier to read*/
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./images/me1440.jpg);
@@ -21,7 +22,7 @@ Display of image element needs to be hidden for portrait mode*/
     display: none;
 }
 
-/*Sizing  for parent container and internal alignment rules*/
+/*Sizing for parent container containing contact components, and internal alignment rules*/
 .contacts {
     display: flex;
     flex-direction: column;
@@ -30,7 +31,7 @@ Display of image element needs to be hidden for portrait mode*/
     height: 25vh;
 }
 
-/*Alignment rules for individual icon/text pairs*/
+/*Alignment rules for individual <div> elements containing visual/text component pairs*/
 #linkedin, #github, #email {
     display: flex;
     width: 75vw;
@@ -39,7 +40,7 @@ Display of image element needs to be hidden for portrait mode*/
 
 }
 
-/*Sizing rules for icons*/
+/*Sizing rules for displayed logos*/
 .logo {
     width: 10vw;
     height: 10vw;
@@ -57,7 +58,7 @@ div > a {
 @media only screen and (orientation: landscape) {
 
     body {
-        /*background-image set to none to cancel it's display and allow for seperate image element*/
+        /*background-image set to none to cancel its display and allow for seperate image element*/
         background-image: none;
         
         /*FlexBox settings need to be changed to allow for correct spacing, change of layout from vertical to horizontal, and the introduction of the main-image element.*/
@@ -73,13 +74,13 @@ div > a {
         box-shadow: 0 2vw 2vh 0 rgba(0,0,0,0.5);   
     }
 
-    /*Sizing adjusted to suit new layout*/
+    /*Sizing of <div> element containing link components adjusted to suit new layout*/
     .contacts {
         max-width: 40vw;
         height: 40vh;
     }
 
-    /*Width adjusted to allow for display alongside image*/
+    /*Width of seperate link components adjusted to allow for display alongside image*/
     #linkedin, #github, #email {
         max-width: 40vw;
     }
@@ -89,7 +90,7 @@ div > a {
         font-size: 7vh;
     }
 
-    /*Sizing adjusted to suit new layout*/
+    /*Sizing of logos adjusted to suit new layout*/
     .logo {
         width: 5vw;
         height: 5vw;

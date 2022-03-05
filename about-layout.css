@@ -7,7 +7,7 @@
     padding-bottom: 6vh;
 }
 
-/*Rules used to align text in parent container*/
+/*Rules used to align text in parent containers. Applies to Introduction, Hobbies, and Professional History segments identified in comments in HTML document.*/
 .about-section {
     display: flex;
     flex-direction: column;
@@ -16,13 +16,13 @@
 }
 
 
-/*Font-size set manually as <h1> default is too large to fit as intended on smaller screens*/
+/*Font-size set manually for heading in blog card, as <h1> default is too large to fit as intended on smaller screens*/
 h1 {
     font-size: 3vh;
     padding: 3vw; 
 }
 
-/*Rules governing the text containers of the page.
+/*Rules governing the text containers of the page. Applies to Introduction, Hobbies, and Professional History segments identified in comments in HTML document.
 For ease of understanding, I have seperated the code into rules governing spacing and internal alignment. */
 .text {
     margin: 3vh;
@@ -37,8 +37,7 @@ p {
     padding: 3vw; 
 }
 
-/*Rules governing the size and layout of the containers which house the link and caption icons.
-*/
+/*Rules governing the size and layout of the containers which house the visual components of the Introduction, Hobbies, and Professional History segments of the document; specifically the link and caption icons.*/
 .link {
     width: 90vw;
     display: flex;
@@ -90,6 +89,8 @@ the caption elements*/
 }
 
 @media only screen and (orientation: landscape) {
+    
+    /*Visual components of Introduction, Hobbies, and Professional History segments need resizing to display appropriately in changed layout*/
     .link {
         max-width: 30vw;
     }
@@ -114,8 +115,8 @@ the caption elements*/
         }
     }   
 
-    /*Text-based elements take up a little too much horizontal display space left to their own devices.
-    They also display at slightly differing sizes, depending on contents. This has adverse effect on position of visual components, which appear staggered.
+    /*Text-based elements take up too much horizontal display space without resizing.
+    They also display at slightly differing sizes, depending on content. This has adverse effect on position of visual components, which appear staggered.
     Max-width set ensure uniformity.*/
     .text {
         max-width: 60vw;

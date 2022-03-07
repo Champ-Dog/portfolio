@@ -14,7 +14,8 @@ Then, rules for positioning and coloration to prevent the appearance of blog art
 }
 
 .card {
-    background-color: #ffbd59;   
+    border-style: hidden hidden solid hidden;
+    border-color: #ffbd59; 
     width: 85vw;
     height: 25vh;
     margin: calc(15vw /2) calc(15vw /2)  calc(15vw /4) calc(15vw /2);
@@ -40,7 +41,7 @@ Then, rules for positioning and coloration to prevent the appearance of blog art
 /*Heading sizes set manually to avoid display conflicts.
 h1, for example, overflows card space*/
 h1, h2 {
-    color: #494548;
+    color: #ffbd59;
     font-size: 3vh;
     padding: 1vh;
 }
@@ -69,7 +70,11 @@ h3, h4 {
 
 /*This sets the colour of the bullet points displayed next to the <li> items making up the blog navigation*/
 li {
-    color: #494548;
+    color: #ffbd59;
+}
+
+ul a {
+    color: #ffbd59;
 }
 
 /*Padding-bottom set to <div> element containing blog <article> elements, to prevent overlap with navbar. Max-width set to prevent sideways scrolling on some displays*/
@@ -121,6 +126,7 @@ article > img {
         padding: 1vh 3vw;
         margin: 2vh 2vw;
         flex-direction: column;
+        border-style: hidden solid hidden hidden;
     }
 
     /*Re-alignment of heading and image in blog card required to accomodate new layout*/

@@ -13,6 +13,8 @@ Then, rules for positioning and coloration to prevent the appearance of blog art
     
 }
 
+/*07/03/22: 'card' effect has been entirely removed now in favour of more minimal display.
+Single line (border) used to show end of the space for visual cohesion when scrolling articles disappear behind 'card' */
 .card {
     border-style: hidden hidden solid hidden;
     border-color: #ffbd59; 
@@ -73,6 +75,7 @@ li {
     color: #ffbd59;
 }
 
+/*07/03/22: List items are links, and all <a> elements have color applied in style.css document. Colour rule needs to be over-written to acommodate new design.*/
 ul a {
     color: #ffbd59;
 }

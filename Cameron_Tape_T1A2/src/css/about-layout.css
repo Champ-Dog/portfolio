@@ -23,7 +23,7 @@ h1 {
 }
 
 /*Rules governing the text containers of the page. Applies to Introduction, Hobbies, and Professional History segments identified in comments in HTML document.
-For ease of understanding, I have seperated the code into rules governing spacing and internal alignment. */
+For ease of understanding, I have separated the code into rules governing spacing and internal alignment. */
 .text {
     margin: 3vh;
 
@@ -46,7 +46,10 @@ p {
 }
 
 /*The logo images need to be sized equal to their captions, and associated with the 'slide' animation*/
+/* UPDATE 31/05/2022: Padding added to logo images to stop them exceeding top of their caption "sleeves". This makes them slightly smaller in all dimensions, but as the issue presented slightly differently
+across varying display sizes/orientations, this is the most elegant solution. I also don't dislike the slight size difference, although this did bother me at the time I was creating the site */
 .logo {
+    padding: 1vw;
     animation-name: slide;
     animation-duration: 3s;
     width: 25vw;
@@ -55,8 +58,10 @@ p {
 /*The 'caption' icons require the most styling; as they are created entirely from code. Typically I would create an image to use and include an <img> element.
 However I wanted to recreate a similar effect using CSS for practice; and since I'm not being assessed on my ability to use Canva.
 Creating an image would likely yield a more consistent result across different display sizes; but I accepted the trade-off to gain practice with a new skill.
-For ease of understanding, I have seperated different aspects of the code: text, sizing, background + coloration, and alignment.*/
-.caption {
+For ease of understanding, I have separated different aspects of the code: text, sizing, background + coloration, and alignment.*/
+
+/* UPDATE 31/05/2022: CSS-based icons replaced with images. As the assessment has been completed, I am changing this to achieve a more consistent display*/
+/* .caption {
     font-size: 2vh;
     text-align: center;
     font-weight: 1000;
@@ -73,6 +78,12 @@ For ease of understanding, I have seperated different aspects of the code: text,
     justify-content: space-around;
     align-items:center;
     position: initial;
+    z-index: 1;
+} */
+
+.caption{
+    width: 25vw;
+    height: auto;
     z-index: 1;
 }
 

@@ -48,7 +48,12 @@ h1, h2 {
     padding: 1vh;
 }
 
-h3, h4 {
+/* UPDATE 31/05/2022: Removed h3/h4 grouping, increased h3 size to improve blog display */
+h3 {
+    font-size: 3vh;
+}
+
+h4 {
     font-size: 2vh;
 }
 
